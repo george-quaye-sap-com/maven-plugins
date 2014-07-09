@@ -17,10 +17,10 @@ import org.codehaus.plexus.DefaultPlexusContainer
 import org.gcontracts.annotations.Ensures
 import org.gcontracts.annotations.Requires
 import org.slf4j.LoggerFactory
-import org.sonatype.aether.RepositorySystem
-import org.sonatype.aether.RepositorySystemSession
-import org.sonatype.aether.repository.RemoteRepository
-import org.sonatype.aether.resolution.ArtifactRequest
+import org.sonatype.eclipse.RepositorySystem
+import org.sonatype.eclipse.RepositorySystemSession
+import org.sonatype.eclipse.repository.RemoteRepository
+import org.sonatype.eclipse.resolution.ArtifactRequest
 import org.springframework.util.ReflectionUtils
 import java.lang.reflect.Field
 import java.lang.reflect.Modifier
