@@ -55,7 +55,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
         <maven-version>3.1.1</maven-version>
 
         <!-- http://evgenyg.artifactoryonline.com/evgenyg/plugins-releases/com/github/goldin/about-maven-plugin/ -->
-<!-- <previous-plugins-version>0.3-beta-1</previous-plugins-version> -->
+<!--         <previous-plugins-version>0.3-beta-1</previous-plugins-version> -->
 
         <!-- http://evgenyg.artifactoryonline.com/evgenyg/repo/com/github/goldin/gcommons/ -->
         <gcommons-version>0.6.3-SNAPSHOT</gcommons-version>
@@ -113,7 +113,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
         <module>find-maven-plugin</module>
         <module>timestamp-maven-plugin</module>
         <module>properties-maven-plugin</module>
-<!-- <module>silencer-maven-plugin</module> -->
+<!--         <module>silencer-maven-plugin</module> -->
         <module>sshexec-maven-plugin</module>
         <module>spring-batch-maven-plugin</module>
     </modules>
@@ -260,25 +260,25 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 
         <plugins>
 
-<!-- <plugin> -->
-<!-- <groupId>com.github.goldin</groupId> -->
-<!-- <artifactId>silencer-maven-plugin</artifactId> -->
-<!-- <version>${previous-plugins-version}</version> -->
-<!-- <executions> -->
-<!-- <execution> -->
-<!-- <id>enable-silencer</id> -->
-<!-- <phase>validate</phase> -->
-<!-- <goals> -->
-<!-- <goal>silence</goal> -->
-<!-- </goals> -->
-<!-- <configuration> -->
-<!-- <runIf>{{ System.getProperty( 'silence' ) != null }}</runIf> -->
-<!-- <logSummary>true</logSummary> -->
-<!-- <topN>5</topN> -->
-<!-- </configuration> -->
-<!-- </execution> -->
-<!-- </executions> -->
-<!-- </plugin> -->
+<!--             <plugin> -->
+<!--                 <groupId>com.github.goldin</groupId> -->
+<!--                 <artifactId>silencer-maven-plugin</artifactId> -->
+<!--                 <version>${previous-plugins-version}</version> -->
+<!--                 <executions> -->
+<!--                     <execution> -->
+<!--                         <id>enable-silencer</id> -->
+<!--                         <phase>validate</phase> -->
+<!--                         <goals> -->
+<!--                             <goal>silence</goal> -->
+<!--                         </goals> -->
+<!--                         <configuration> -->
+<!--                             <runIf>{{ System.getProperty( 'silence' ) != null }}</runIf> -->
+<!--                             <logSummary>true</logSummary> -->
+<!--                             <topN>5</topN> -->
+<!--                        </configuration> -->
+<!--                     </execution> -->
+<!--                 </executions> -->
+<!--             </plugin> -->
 
             <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
             <!-- Enforcing Maven/Java versions -->
