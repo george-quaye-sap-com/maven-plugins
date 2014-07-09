@@ -45,7 +45,7 @@ class IvyArtifactResolver implements ArtifactResolver {
         final extension    = a.extension
         // Artifact may have no "file" set if resolution fails and helper's "failOnError" is "false"
         final artifact     = ivyHelper.resolve( organisation, name, revision, extension, pattern )
-        final result       = new ArtifactResult( request )                                // org.eclipse.aether.resolution.ArtifactResult
+        final result       = new ArtifactResult( request )                                   // org.eclipse.aether.resolution.ArtifactResult
         result.artifact    = new DefaultArtifact( organisation, name, extension, revision ) // org.eclipse.aether.artifact.DefaultArtifact
         if ( artifact.file )
         {
